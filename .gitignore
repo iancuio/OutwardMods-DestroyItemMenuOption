@@ -1,0 +1,49 @@
+## --- Visual Studio ---
+*.swp
+*.lock
+*.dotSettings
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# Visual Studio 2015/2017/2019/2022 cache/options
+.vs/
+
+## --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+## --- NuGet ---
+# Ignore the packages folder, but keep the config
+packages/*
+!packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+## --- OS Generated ---
+.DS_Store
+Thumbs.db
+
+## --- Unity / Modding Specific ---
+# If you copy DLLs from the game folder into a 'Libs' folder, 
+# you usually want to ignore them so you don't distribute game code.
+# Un-comment the line below if you use a Libs folder:
+# /Libs/
+
+# BepInEx/Thunderstore specific
+*.zip
+*.nupkg
+
+# Local developer paths
+Directory.Build.props
+
+/release/
